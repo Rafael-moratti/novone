@@ -79,12 +79,16 @@ main{
     justify-content: space-between; /* Espaçamento entre o main e as divs laterais */
     overflow-x: auto; /* Scroll horizontal */
     padding: 5px; /* Espaço entre o conteúdo e a borda */
+    padding-left: 2px;
+    padding-right: 2px;
 }
 
 .cont{
     width: 80%;
     flex-wrap: wrap; /* Itens quebram para uma linha nova */
     justify-content: space-between; /* Espaçamento entre os itens */
+    padding-left: 22px;
+    padding-right: 2px;
 }
 
 .column{
